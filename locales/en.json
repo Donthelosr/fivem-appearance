@@ -28,6 +28,12 @@
       "firstOption": "Father",
       "secondOption": "Mother",
       "mix": "Mix"
+    },
+    "race": {
+      "title": "Race",
+      "shape": "Shape",
+      "skin": "Skin",
+      "mix": "Mix"
     }
   },
   "faceFeatures": {
@@ -80,18 +86,20 @@
       "title": "Hair",
       "style": "Style",
       "color": "Color",
-      "highlight": "Highlight", 
+      "highlight": "Highlight",
+      "texture": "Texture",
       "fade": "Fade"
     },
     "opacity": "Opacity",
     "style": "Style",
     "color": "Color",
+    "secondColor": "Secondary Color",
     "blemishes": "Blemishes",
     "beard": "Beard",
     "eyebrows": "Eyebrows",
     "ageing": "Ageing",
     "makeUp": "Make up",
-    "blush": "Bblush",
+    "blush": "Blush",
     "complexion": "Complexion",
     "sunDamage": "Sun damage",
     "lipstick": "Lipstick",
@@ -109,7 +117,7 @@
     "lowerBody": "Legs",
     "bags": "Bags and parachute",
     "shoes": "Shoes",
-    "scarfAndChains": "Scarf and chais",
+    "scarfAndChains": "Scarf and chains",
     "shirt": "Shirt",
     "bodyArmor": "Body armor",
     "decals": "Decals",
@@ -124,7 +132,7 @@
     "ear": "Ear",
     "watches": "Watches",
     "bracelets": "Bracelets"
-  }, 
+  },
   "tattoos": {
     "title": "Tattoos",
     "items": {
@@ -135,7 +143,8 @@
       "ZONE_LEFT_LEG": "Left leg",
       "ZONE_RIGHT_LEG": "Right leg"
     },
-    "apply": "Apply", 
-    "delete": "Delete"
+    "apply": "Apply",
+    "delete": "Remove",
+    "deleteAll": "Remove all Tattoos"
   }
 }

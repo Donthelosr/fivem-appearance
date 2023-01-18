@@ -1,19 +1,19 @@
 {
   "modal": {
     "save": {
-      "title": "Änderung speichern?",
-      "description": "Du bleibst trotzdem hässlich :D"
+      "title": "Anpassungen speichern",
+      "description": "Du wirst hässlich bleiben"
     },
     "exit": {
-      "title": "Abbrechen",
-      "description": "Es werden keine Änderungen übernommen."
+      "title": "Beenden der Anpassung",
+      "description": "Es werden keine Änderungen gespeichert"
     },
     "accept": "Ja",
     "decline": "Nein"
   },
   "ped": {
     "title": "Ped",
-    "model": "Modell"
+    "model": "Model"
   },
   "headBlend": {
     "title": "Vererbung",
@@ -21,41 +21,47 @@
       "title": "Gesicht",
       "firstOption": "Vater",
       "secondOption": "Mutter",
-      "mix": "Mischung"
+      "mix": "Ähnlichkeit"
     },
     "skin": {
       "title": "Hautfarbe",
       "firstOption": "Vater",
       "secondOption": "Mutter",
-      "mix": "Mischung"
+      "mix": "Ähnlichkeit"
+    },
+    "race": {
+      "title": "Rasse",
+      "shape": "Form",
+      "skin": "Hautfarbe",
+      "mix": "Ähnlichkeit"
     }
   },
   "faceFeatures": {
-    "title": "Gesicht",
+    "title": "Gesichtsmerkmale",
     "nose": {
       "title": "Nase",
       "width": "Breite",
       "height": "Höhe",
       "size": "Größe",
       "boneHeight": "Knochenhöhe",
-      "boneTwist": "Knochenkrümmung",
-      "peakHeight": "Nasenspitzenhöhe"
+      "boneTwist": "Knochendrehung",
+      "peakHeight": "Höhe der Spitze"
     },
     "eyebrows": {
-      "title": "Augebrauen",
+      "title": "Augenbrauen",
       "height": "Höhe",
       "depth": "Tiefe"
     },
     "cheeks": {
       "title": "Wangen",
       "boneHeight": "Knochenhöhe",
-      "boneWidth": "Knochenbreite",
+      "boneWidth": "Breite des Knochens",
       "width": "Breite"
     },
     "eyesAndMouth": {
       "title": "Augen und Mund",
-      "eyesOpening": "Augenweite",
-      "lipsThickness": "Lippendicke"
+      "eyesOpening": "Augengröße",
+      "lipsThickness": "Dicke der Lippen"
     },
     "jaw": {
       "title": "Kiefer",
@@ -64,69 +70,71 @@
     },
     "chin": {
       "title": "Kinn",
-      "lowering": "Senkung",
-      "length": "Länge",
+      "lowering": "Kinnhöhe",
+      "length": "Kinntiefe",
       "size": "Größe",
-      "hole": "Lochgröße"
+      "hole": "Kinneinzug"
     },
     "neck": {
-      "title": "Nacken",
-      "thickness": "Dicke"
+      "title": "Hals",
+      "thickness": "Halsumfang"
     }
   },
   "headOverlays": {
     "title": "Aussehen",
     "hair": {
       "title": "Haare",
-      "style": "Style",
+      "style": "Stil",
       "color": "Farbe",
       "highlight": "Highlight",
+      "texture": "Textur",
       "fade": "Fade"
     },
-    "opacity": "Transparenz",
-    "style": "Style",
+    "opacity": "Deckkraft",
+    "style": "Stil",
     "color": "Farbe",
+    "secondColor": "Sekundärfarbe",
     "blemishes": "Unreinheiten",
     "beard": "Bart",
     "eyebrows": "Augenbrauen",
     "ageing": "Alterung",
-    "makeUp": "Make up",
-    "blush": "Rötung",
+    "makeUp": "Schminke",
+    "blush": "Erröten",
     "complexion": "Teint",
-    "sunDamage": "Sonnenschaden",
+    "sunDamage": "Sonnenschäden",
     "lipstick": "Lippenstift",
-    "moleAndFreckles": "Sommersprossen / Pickel",
-    "chestHair": "Brusthaare",
+    "moleAndFreckles": "Muttermal und Sommersprossen",
+    "chestHair": "Brustbehaarung",
     "bodyBlemishes": "Körperliche Unreinheiten",
     "eyeColor": "Augenfarbe"
   },
   "components": {
     "title": "Kleidung",
-    "drawable": "Stil",
-    "texture": "Farbe",
-    "mask": "Maske",
-    "upperBody": "Hände",
-    "lowerBody": "Hose",
-    "bags": "Tasche",
+    "drawable": "Nummer",
+    "texture": "Textur",
+    "mask": "Masken",
+    "upperBody": "Arme",
+    "lowerBody": "Hosen",
+    "bags": "Taschen",
     "shoes": "Schuhe",
-    "scarfAndChains": "Narben",
-    "shirt": "Shirt",
-    "bodyArmor": "Weste",
+    "scarfAndChains": "Ketten",
+    "shirt": "Shirts",
+    "bodyArmor": "Westen",
     "decals": "Aufkleber",
     "jackets": "Jacken"
   },
   "props": {
-    "title": "Props",
-    "drawable": "Stil",
-    "texture": "Farbe",
-    "hats": "Hüte & Helme",
+    "title": "Accessoires",
+    "drawable": "Nummer",
+    "texture": "Textur",
+    "hats": "Hüte und Helme",
     "glasses": "Brillen",
-    "ear": "Ohren",
+    "ear": "Ohrringe",
     "watches": "Uhren",
     "bracelets": "Armbänder"
-  }, 
+  },
   "tattoos": {
-    "title": "Tattoos",
+    "title": "Tätowierungen",
     "items": {
       "ZONE_TORSO": "Oberkörper",
       "ZONE_HEAD": "Kopf",
@@ -135,7 +143,8 @@
       "ZONE_LEFT_LEG": "Linkes Bein",
       "ZONE_RIGHT_LEG": "Rechtes Bein"
     },
-    "apply": "Bestätigen", 
-    "delete": "Löschen"
+    "apply": "Anwenden",
+    "delete": "Entfernen",
+    "deleteAll": "Alle Tattoos entfernen"
   }
 }

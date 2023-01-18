@@ -6,7 +6,7 @@
     },
     "exit": {
       "title": "Salir de la personalización",
-      "description": "No se guardarán los cambios."
+      "description": "No se guardarán los cambios"
     },
     "accept": "Si",
     "decline": "No"
@@ -18,16 +18,22 @@
   "headBlend": {
     "title": "Herencia",
     "shape": {
-      "title": "Cara",
+      "title": "Rostro",
       "firstOption": "Padre",
       "secondOption": "Madre",
-      "mix": "Parentesco"
+      "mix": "Mezcla"
     },
     "skin": {
       "title": "Piel",
       "firstOption": "Padre",
       "secondOption": "Madre",
-      "mix": "Parentesco"
+      "mix": "Mezcla"
+    },
+    "race": {
+      "title": "Raza",
+      "shape": "Rostro",
+      "skin": "Piel",
+      "mix": "Mezcla"
     }
   },
   "faceFeatures": {
@@ -38,7 +44,7 @@
       "height": "Altura",
       "size": "Tamaño",
       "boneHeight": "Altura del hueso",
-      "boneTwist": "Giro del hueso",
+      "boneTwist": "Girar hueso",
       "peakHeight": "Altura máxima"
     },
     "eyebrows": {
@@ -54,7 +60,7 @@
     },
     "eyesAndMouth": {
       "title": "Ojos y Boca",
-      "eyesOpening": "Abriendo los ojos",
+      "eyesOpening": "Apertura de ojos",
       "lipsThickness": "Grosor del labio"
     },
     "jaw": {
@@ -64,7 +70,7 @@
     },
     "chin": {
       "title": "Barbilla",
-      "lowering": "Pera",
+      "lowering": "Bajar",
       "length": "Largo",
       "size": "Tamaño",
       "hole": "Tamaño del agujero"
@@ -80,48 +86,50 @@
       "title": "Pelo",
       "style": "Estilo",
       "color": "Color",
-      "highlight": "Mechas",
+      "highlight": "Resalte",
+      "texture": "Textura",
       "fade": "Degradado"
     },
     "opacity": "Opacidad",
     "style": "Estilo",
     "color": "Color",
+    "secondColor": "Color secundario",
     "blemishes": "Manchas",
     "beard": "Barba",
     "eyebrows": "Cejas",
-    "ageing": "Envejecimiento",
+    "ageing": "Arrugas",
     "makeUp": "Maquillaje",
     "blush": "Rubor",
     "complexion": "Tez",
     "sunDamage": "Daño del sol",
     "lipstick": "Lápiz labial",
-    "moleAndFreckles": "Lunares y pecas",
+    "moleAndFreckles": "Huecos y Pecas",
     "chestHair": "Pelo en el pecho",
     "bodyBlemishes": "Manchas corporales",
-    "eyeColor": "Color de los ojos"
+    "eyeColor": "Color de ojos"
   },
   "components": {
     "title": "Ropa",
-    "drawable": "Modelo",
+    "drawable": "Prenda",
     "texture": "Textura",
-    "mask": "Máscara",
-    "upperBody": "Manos",
+    "mask": "Máscaras",
+    "upperBody": "Brazos",
     "lowerBody": "Piernas",
-    "bags": "Bolsas y paracaídas",
+    "bags": "Bolsas y Paracaídas",
     "shoes": "Zapatos",
-    "scarfAndChains": "Bufandas y cadenas",
-    "shirt": "Camisa",
-    "bodyArmor": "Armadura",
+    "scarfAndChains": "Bufandas y Cadenas",
+    "shirt": "Camisetas",
+    "bodyArmor": "Chalecos",
     "decals": "Calcomanías",
     "jackets": "Chaquetas"
   },
   "props": {
     "title": "Accesorios",
-    "drawable": "Modelo",
+    "drawable": "Prenda",
     "texture": "Textura",
-    "hats": "Sombreros y cascos",
+    "hats": "Gorras y Cascos",
     "glasses": "Gafas",
-    "ear": "Pendites",
+    "ear": "Aretes",
     "watches": "Relojes",
     "bracelets": "Brazaletes"
   },
@@ -135,7 +143,8 @@
       "ZONE_LEFT_LEG": "Pierna izquierda",
       "ZONE_RIGHT_LEG": "Pierna derecha"
     },
-    "apply": "Aplicar", 
-    "delete": "Borrar"
+    "apply": "Aplicar",
+    "delete": "Borrar",
+    "deleteAll": "Borrar todo"
   }
 }
